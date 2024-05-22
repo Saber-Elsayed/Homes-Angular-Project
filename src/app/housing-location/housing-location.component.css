@@ -1,7 +1,12 @@
 .listing {
+  display: inline-block;
+  width: calc(25% - 20px); /* Adjust width and spacing as needed */
+  margin: 10px; /* Adjust margin for spacing between items */
+  vertical-align: top; /* Align top to handle different heights */
   background: var(--accent-color);
   border-radius: 30px;
   padding-bottom: 30px;
+  box-sizing: border-box;
 }
 .listing-heading {
   color: var(--primary-color);

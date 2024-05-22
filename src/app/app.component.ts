@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
           aria-hidden="true"
           style="width: 50px; height: auto;"
         />
+        <span class="brand-text" style="color:blue;">Homes</span>
       </header>
       <section class="content">
         <app-home></app-home>
